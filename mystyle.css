@@ -1,0 +1,85 @@
+html{
+  overflow-x: hidden;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  body{
+    background-color: #edf2f4;
+    overflow-x: hidden;
+  
+  }
+  /* For large screens */
+  @media screen and (min-width: 480px){
+    #home{
+      padding-top: 80px;
+    }
+    #tariff{
+      padding-top: 50px;
+    }
+    #contact{
+      padding-top: 2px;
+    }
+    #form{
+      padding-top: 80px;
+    }
+  } 
+  /* For small screens */
+  @media only screen and (max-width: 768px) {
+    #home{
+       padding-top: 60px;
+        
+    }
+    #tariff{
+      padding-top: 60px;
+    }
+}
+/* for extra small screens */
+@media only screen and (max-width: 568px) {
+  #home{
+     padding-top: 65px;
+      
+  }
+  #tariff{
+    padding-top: 65px;
+  }
+  #nav .navbar-toggler .navbar-toggler-icon{
+    font-size: 15px;
+  }
+  #nav .navbar-brand {
+    font-size: 20px ;
+  }
+  #form{
+    padding-top: 65px;
+  }
+}
+/* for flip screens */
+@media only screen and (max-width: 653px) {
+  #home{
+     padding-top: 65px;
+      
+  }
+  #tariff{
+    padding-top: 65px;
+  }
+  #nav .navbar-toggler .navbar-toggler-icon{
+    font-size: 10px;
+  }
+  #nav .navbar-brand {
+    font-size: 15px ;
+  }
+  #form{
+    padding-top: 65px;
+  }
+}
+
+
+  .navbar-light .navbar-nav .nav-link.active{
+    color:black;
+    font-weight: 700;
+  }  
+  .active, .navbar-light .navbar-nav .nav-link:hover{
+    
+    color: black
+  }
